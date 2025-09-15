@@ -1,0 +1,55 @@
+
+# Configuración GitHub Pages - Tema Día de Muertos
+name: La Doble Metamorfosis - Nahuala Poblana
+description: Proyecto animatrónico para Cocotrón 2025 BUAP inspirado en la leyenda poblana de la Nahuala
+theme: jekyll-theme-midnight
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Configuración del sitio
+title: 🎭 La Doble Metamorfosis 🎭
+tagline: Terror y Belleza de la Nahuala Poblana
+url: https://tu-usuario.github.io
+baseurl: /nahuala-cocotron-2025
+
+# Información del proyecto
+project:
+  name: La Doble Metamorfosis
+  subtitle: Terror y Belleza de la Nahuala Poblana
+  year: 2025
+  university: BUAP
+  contest: Cocotrón 2025
+  team_size: 4
+  budget: 2890
+
+# Redes sociales y contacto
+social:
+  email: daniel.mocenca-hua@correo.buap.mx
+  university_url: https://www.buap.mx
+  contest_url: https://cultura.buap.mx
+
+# SEO y Analytics
+google_analytics: # Tu código de Google Analytics aquí
+lang: es-MX
+locale: es_MX
+
+# Configuración de la compilación
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Incluir/Excluir archivos
+include:
+  - _pages
+exclude:
+  - "*.original"
+  - "*.log"
+  - node_modules
+  - vendor
+
+# Configuración de kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
